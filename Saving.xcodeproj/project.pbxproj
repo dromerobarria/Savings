@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE9FD2072C543A6700E4296B /* ci_post_clone.sh in Resources */ = {isa = PBXBuildFile; fileRef = FE9FD2062C543A6700E4296B /* ci_post_clone.sh */; };
 		FEBB411B2C3246EC0040C4C3 /* SavingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB411A2C3246EC0040C4C3 /* SavingApp.swift */; };
 		FEBB41212C3246ED0040C4C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBB41202C3246ED0040C4C3 /* Assets.xcassets */; };
 		FEBB41242C3246ED0040C4C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBB41232C3246ED0040C4C3 /* Preview Assets.xcassets */; };
@@ -110,6 +111,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE9FD2062C543A6700E4296B /* ci_post_clone.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		FEBB41172C3246EC0040C4C3 /* Saving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBB411A2C3246EC0040C4C3 /* SavingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingApp.swift; sourceTree = "<group>"; };
 		FEBB41202C3246ED0040C4C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -214,6 +216,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE9FD2052C543A6700E4296B /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				FE9FD2062C543A6700E4296B /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
+			sourceTree = SOURCE_ROOT;
+		};
 		FEBB410E2C3246EC0040C4C3 = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +251,7 @@
 		FEBB41192C3246EC0040C4C3 /* Saving */ = {
 			isa = PBXGroup;
 			children = (
+				FE9FD2052C543A6700E4296B /* ci_scripts */,
 				FEBB41DF2C3A11450040C4C3 /* Info.plist */,
 				FEBB41DE2C3A10BA0040C4C3 /* Saving.entitlements */,
 				FEBB416F2C324D640040C4C3 /* Presentation */,
@@ -712,6 +723,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEBB41242C3246ED0040C4C3 /* Preview Assets.xcassets in Resources */,
+				FE9FD2072C543A6700E4296B /* ci_post_clone.sh in Resources */,
 				FEBB41212C3246ED0040C4C3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
