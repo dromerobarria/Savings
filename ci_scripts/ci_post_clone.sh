@@ -7,5 +7,4 @@
 #  
 
 brew install swiftlint
-echo "SwiftLint install"
 swiftlint $CI_WORKSPACE
